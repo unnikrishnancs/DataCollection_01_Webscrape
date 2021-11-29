@@ -1,3 +1,17 @@
+
+'''
+Scrape the below website and get the rent details :-
+
+https://www.makaan.com/price-trends/property-rates-for-rent-in-bangalore
+
+Format of output CSV file
+
+Locality, MinPrice, MaxPrice, AvgRent, HouseType
+
+'''
+
+
+
 #import necessary libraries
 import requests
 from bs4 import BeautifulSoup
